@@ -1,0 +1,21 @@
+
+Encapsulation in Python is the principle of bundling data (attributes) and methods (functions) that
+operate on the data into a single unit, which is usually called a class. It helps in hiding the internal
+state and requiring all interactions to be performed through well-defined interfaces (typically methods).
+
+
+Here are the key concepts of encapsulation in Python:
+
+Class: A class is a blueprint for creating objects (instances).
+It defines attributes (data members) and methods (functions) that operate on those attributes.
+
+Access Specifiers: In Python, encapsulation can be partially achieved through access specifiers:
+
+Public: Members (attributes and methods) are accessible from outside the class.
+Protected: Members can be accessed within the same package or by subclasses.
+Private: Members can only be accessed within the same class.
+
+Python conventionally uses underscores to denote the access level:
+
+_single_underscore: Protected member.
+__double_underscore: Private member.
